@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(186, 200, 201);
+}
+header {
+    color: rgb(89, 146, 150);
+    font-family: cursive;
+    font-size: 25px;
+    text-align: left;
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    background-color: rgba(155, 193, 192);
+    text-align: right;
+    padding: 20px;
+    font-size: 20px;
+    font-style: italic;
+    margin: 0px;
+}
+nav > ul > li{
+    display: inline-block;
+    padding: 10px;
+}
+.countries{
+    display: none;
+}
+a:hover{
+    border-bottom: solid black;
+    height: 100px;
+    width: auto;
+    color: black;
+}
+a{
+    color: rgba(5, 98, 76, 0.971);
+    text-decoration-line: none;
+}
+footer{
+    background-color: rgba(155, 193, 192);
+    margin: 0px;
+    padding: 20px;
+    border-radius: 10px;
+}
+article{
+    background-image: url(imagenes/banner_turismo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: flex;
+    height: 550px;
+    width: auto;
+    background-color: rgb(17, 53, 94);
+    margin: 0px;
+    border-radius: 10px;
+}
+section > p{
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 10px;
+    margin: 0px
+}
